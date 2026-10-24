@@ -138,7 +138,8 @@ export const PrintExamSheet: React.FC<PrintExamSheetProps> = ({
                           <img
                             src={q.imageUrl}
                             alt={q.imageCaption || `Ilustrasi Soal ${q.originalNumber}`}
-                            className="max-h-44 mx-auto object-contain"
+                            className="max-h-48 mx-auto object-cover rounded-lg"
+                            referrerPolicy="no-referrer"
                           />
                           {q.imageCaption && (
                             <p className="text-[10px] text-center text-slate-500 italic mt-1">

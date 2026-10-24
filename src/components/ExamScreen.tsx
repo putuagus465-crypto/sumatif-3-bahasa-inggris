@@ -235,7 +235,8 @@ export const ExamScreen: React.FC<ExamScreenProps> = ({
                 <img
                   src={currentQuestion.imageUrl}
                   alt={currentQuestion.imageCaption || `Ilustrasi Soal #${currentQuestion.originalNumber}`}
-                  className="max-h-56 max-w-full object-contain rounded-lg"
+                  className="max-h-64 max-w-full object-cover sm:object-contain rounded-xl shadow-xs"
+                  referrerPolicy="no-referrer"
                 />
                 {currentQuestion.imageCaption && (
                   <span className="text-xs text-slate-500 italic mt-2 text-center font-medium">
