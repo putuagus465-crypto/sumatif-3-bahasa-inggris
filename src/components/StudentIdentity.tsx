@@ -213,7 +213,7 @@ export const StudentIdentity: React.FC<StudentIdentityProps> = ({
                   <span className="font-bold px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800">20 Soal</span>
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-lg bg-slate-50 border border-slate-100">
-                  <span className="font-medium">3. Karakteristik: Soal Pendek &amp; Gambar Realistis</span>
+                  <span className="font-medium">3. Karakteristik: Soal Pendek &amp; Mudah Dipahami</span>
                   <span className="font-bold px-2 py-0.5 rounded-md bg-indigo-100 text-indigo-800">Kelas III SD</span>
                 </div>
               </div>

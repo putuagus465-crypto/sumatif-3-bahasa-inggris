@@ -1,27 +1,17 @@
 import { Question } from '../types';
 
-// Realistic Photographic Visual Assets for Grade 3 English - Activities at Home
-export const REAL_IMAGES = {
-  tidyingBed: '/src/assets/images/kid_tidying_bed_1792810702293.jpg',
-  sweepingFloor: '/src/assets/images/sweeping_floor_real_1792810701768.jpg',
-  wateringPlants: '/src/assets/images/watering_plants_real_1792810702365.jpg',
-  washingDishes: '/src/assets/images/washing_dishes_real_1792810718112.jpg',
-  cookingKitchen: '/src/assets/images/cooking_kitchen_real_1792810718246.jpg',
-  brushingTeeth: '/src/assets/images/brushing_teeth_real_1792810718981.jpg',
-};
-
 export const ELEMEN_BAHASA_INGGRIS = 'Menyimak - Berbicara & Membaca - Memirsa';
 
 export const CP_BAHASA_INGGRIS =
-  'Peserta didik mampu memahami dan merespons teks visual dan kalimat sederhana tentang kegiatan sehari-hari di rumah (activities at home).';
+  'Peserta didik mampu memahami dan merespons teks dan kalimat sederhana tentang kegiatan sehari-hari di rumah (activities at home).';
 
 export const TP_ACTIVITIES_AT_HOME =
   'Peserta didik mampu mengidentifikasi kosakata kegiatan sehari-hari di rumah (activities at home), nama ruangan, serta peralatan rumah tangga secara tepat.';
 
 /**
  * 20 Soal Pilihan Ganda Bahasa Inggris - Materi: Activities at Home
- * Kategori: 100% MUDAH (20 Soal Mudah, Kalimat Pendek, Gambar Realistis)
- * Bersih tanpa membocorkan jawaban di dalam soal.
+ * Kategori: 100% MUDAH (20 Soal Mudah, Kalimat Pendek, Teks Bersih Tanpa Gambar)
+ * Bersih tanpa membocorkan jawaban di dalam naskah soal.
  */
 export const INITIAL_QUESTIONS: Question[] = [
   // Soal 1
@@ -33,18 +23,16 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat mengidentifikasi kegiatan merapikan tempat tidur berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat menentukan kegiatan merapikan tempat tidur di pagi hari.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.tidyingBed,
-    imageCaption: 'Activity in the bedroom',
-    question: 'Look at the picture! What activity is this?',
+    question: 'Every morning, Nina arranges her pillow and folds her blanket. She is ...',
     options: [
-      'Tidying up the bed',
-      'Washing the car',
-      'Cooking soup',
-      'Watering plants'
+      'tidying up the bed',
+      'washing the car',
+      'cooking soup',
+      'watering plants'
     ],
     correctAnswer: 0,
     explanation: 'Merapikan bantal dan selimut di tempat tidur disebut "tidying up the bed".'
@@ -59,13 +47,11 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat menentukan kegiatan menyapu lantai berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat menentukan kegiatan menyapu lantai menggunakan sapu.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.sweepingFloor,
-    imageCaption: 'Cleaning chore at home',
-    question: 'Look at the picture! What is she doing?',
+    question: 'Father cleans dust from the floor with a broom. What is Father doing?',
     options: [
       'Mopping the floor',
       'Sweeping the floor',
@@ -85,13 +71,11 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat menentukan kegiatan menyiram tanaman berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat menentukan kegiatan menyiram tanaman di kebun.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.wateringPlants,
-    imageCaption: 'Garden activity',
-    question: 'Look at the picture! What is she doing?',
+    question: 'Budi pours water on the potted flowers in the garden. What is he doing?',
     options: [
       'Cutting the grass',
       'Playing football',
@@ -99,7 +83,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Washing the bike'
     ],
     correctAnswer: 2,
-    explanation: 'Menyiram bunga atau tanaman di pot disebut "watering the flowers".'
+    explanation: 'Menyiram bunga atau tanaman di kebun disebut "watering the flowers".'
   },
 
   // Soal 4
@@ -111,21 +95,19 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat menentukan kegiatan mencuci piring berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat menentukan kegiatan mencuci piring dan sendok di wastafel.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.washingDishes,
-    imageCaption: 'Chore at the kitchen sink',
-    question: 'Look at the picture! What is she doing?',
+    question: 'After lunch, Sinta cleans dirty plates and spoons with soap. She is ...',
     options: [
-      'Cooking rice',
-      'Washing the dishes',
-      'Eating snacks',
-      'Buying food'
+      'cooking rice',
+      'washing the dishes',
+      'eating snacks',
+      'buying food'
     ],
     correctAnswer: 1,
-    explanation: 'Mencuci piring di wastafel dapur disebut "washing the dishes".'
+    explanation: 'Mencuci piring dan sendok kotor dengan sabun disebut "washing the dishes".'
   },
 
   // Soal 5
@@ -137,21 +119,19 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat mengidentifikasi kegiatan memasak di dapur berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat mengidentifikasi kegiatan memasak di dapur.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.cookingKitchen,
-    imageCaption: 'Kitchen activity',
-    question: 'Look at the picture! What is mother doing?',
+    question: 'Mother is in the kitchen preparing soup on the stove. Mother is ...',
     options: [
-      'Cooking',
-      'Sleeping',
-      'Swimming',
-      'Reading'
+      'cooking',
+      'sleeping',
+      'swimming',
+      'reading'
     ],
     correctAnswer: 0,
-    explanation: 'Mengolah masakan di kompor dapur disebut "cooking" (memasak).'
+    explanation: 'Menyiapkan masakan di kompor dapur disebut "cooking" (memasak).'
   },
 
   // Soal 6
@@ -163,13 +143,11 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat menentukan kegunaan sikat gigi dan pasta gigi berdasarkan gambar realistis.',
+    indikator: 'Siswa dapat menentukan kegunaan sikat gigi dan pasta gigi.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    imageUrl: REAL_IMAGES.brushingTeeth,
-    imageCaption: 'Hygiene in the bathroom',
-    question: 'What do we do with a toothbrush and toothpaste?',
+    question: 'What do we do with a toothbrush and toothpaste in the bathroom?',
     options: [
       'Wash shoes',
       'Brush our teeth',
@@ -241,7 +219,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What do we use to sweep the floor?',
+    question: 'What tool do we use to sweep the floor?',
     options: [
       'A broom',
       'A spoon',
@@ -265,7 +243,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What do you do at six o\'clock in the morning?',
+    question: 'What do you do when the morning alarm rings at 6:00 AM?',
     options: [
       'Wake up',
       'Go to sleep',
@@ -273,7 +251,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Close the door'
     ],
     correctAnswer: 0,
-    explanation: 'Aktivitas di pagi hari jam 6 adalah "wake up" (bangun tidur).'
+    explanation: 'Aktivitas bangun tidur di pagi hari disebut "wake up".'
   },
 
   // Soal 11
@@ -285,11 +263,11 @@ export const INITIAL_QUESTIONS: Question[] = [
     elemen: ELEMEN_BAHASA_INGGRIS,
     capaianPembelajaran: CP_BAHASA_INGGRIS,
     tujuanPembelajaran: TP_ACTIVITIES_AT_HOME,
-    indikator: 'Siswa dapat menentukan kegiatan makan pagi (sarapan).',
+    indikator: 'Siswa dapat menentukan kegiatan sarapan pagi.',
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What do we do in the dining room in the morning?',
+    question: 'What do we do in the dining room before going to school?',
     options: [
       'Have breakfast',
       'Have dinner',
@@ -297,7 +275,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Iron shirts'
     ],
     correctAnswer: 0,
-    explanation: 'Makan pagi di ruang makan disebut "have breakfast" (sarapan).'
+    explanation: 'Makan pagi sebelum pergi ke sekolah adalah "have breakfast" (sarapan).'
   },
 
   // Soal 12
@@ -313,7 +291,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'We use a wet mop to clean the floor. This activity is ...',
+    question: 'We use a wet mop to clean the floor. This activity is called ...',
     options: [
       'mopping the floor',
       'washing the dishes',
@@ -321,7 +299,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'tidying up the bed'
     ],
     correctAnswer: 0,
-    explanation: 'Membersihkan lantai dengan kain pel disebut "mopping the floor".'
+    explanation: 'Membersihkan lantai menggunakan kain pel disebut "mopping the floor".'
   },
 
   // Soal 13
@@ -337,7 +315,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What is Budi doing at his study desk with his pencil and book?',
+    question: 'What is Budi doing at his study desk with his pencil and notebook?',
     options: [
       'Doing homework',
       'Sleeping',
@@ -345,7 +323,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Playing ball'
     ],
     correctAnswer: 0,
-    explanation: 'Belajar dan menyelesaikan tugas sekolah di meja belajar disebut "doing homework".'
+    explanation: 'Menyelesaikan tugas sekolah di meja belajar disebut "doing homework".'
   },
 
   // Soal 14
@@ -361,7 +339,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What is Ani doing with her storybook?',
+    question: 'What is Ani doing with her storybook in her room?',
     options: [
       'Reading a book',
       'Singing a song',
@@ -369,7 +347,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Running fast'
     ],
     correctAnswer: 0,
-    explanation: 'Melihat dan memahami isi buku cerita disebut "reading a book" (membaca buku).'
+    explanation: 'Membaca buku cerita di kamar disebut "reading a book".'
   },
 
   // Soal 15
@@ -385,7 +363,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What are they doing on the sofa in front of the TV?',
+    question: 'What are the children doing on the sofa in front of the TV?',
     options: [
       'Reading newspapers',
       'Watching television',
@@ -393,7 +371,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Watering plants'
     ],
     correctAnswer: 1,
-    explanation: 'Duduk di sofa dan melihat tayangan TV disebut "watching television".'
+    explanation: 'Melihat tayangan televisi di ruang keluarga adalah "watching television".'
   },
 
   // Soal 16
@@ -409,7 +387,7 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'What should we do with soap and water before eating?',
+    question: 'What should we do with soap and clean water before eating?',
     options: [
       'Brush shoes',
       'Wash our hands',
@@ -433,12 +411,12 @@ export const INITIAL_QUESTIONS: Question[] = [
     cognitiveLevel: 'L1',
     difficulty: 'Mudah',
     scoreWeight: 1,
-    question: 'Where does mother cook food at home?',
+    question: 'Where does mother cook food for the family?',
     options: [
       'In the kitchen',
       'In the bathroom',
       'In the bedroom',
-      'On the roof'
+      'In the garage'
     ],
     correctAnswer: 0,
     explanation: 'Ruangan tempat memasak makanan adalah "kitchen" (dapur).'
@@ -489,7 +467,7 @@ export const INITIAL_QUESTIONS: Question[] = [
       'Break the toys'
     ],
     correctAnswer: 0,
-    explanation: 'Setelah bermain, kita harus merapikan mainan ("tidy up the toys").'
+    explanation: 'Setelah bermain di kamar, kita harus merapikan mainan ("tidy up the toys").'
   },
 
   // Soal 20

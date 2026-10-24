@@ -1,8 +1,8 @@
 import { ExamResultData, ExamSettings, Question } from '../types';
 import { INITIAL_QUESTIONS } from '../data/questions';
 
-const STORAGE_KEY_RESULTS = 'sdn3_loloan_english_results_v3';
-const STORAGE_KEY_SETTINGS = 'sdn3_loloan_english_settings_v3';
+const STORAGE_KEY_RESULTS = 'sdn3_loloan_english_results_v4';
+const STORAGE_KEY_SETTINGS = 'sdn3_loloan_english_settings_v4';
 
 export const DEFAULT_WEBHOOK_URL =
   'https://script.google.com/macros/s/AKfycbwA__bqHqwFqO7P2OrqAx9SXUdefoZMDzsO74CYq5qayUXiEmmjV7Yr0H59MdTsXIur8A/exec';
